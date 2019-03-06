@@ -1,0 +1,87 @@
+/**
+ * Stolen from:
+ * https://codepen.io/tjoen/pen/Btkwm
+ * https://github.com/contra/windows_98.css
+ */
+
+.win98 {
+  -webkit-font-smoothing: none;
+  background: #008080;
+  font-size: 11px;
+  font-family: "Tahoma", sans-serif;
+  color: #070707;
+  visibility: hidden;
+}
+
+.popup {
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+  margin: 0 auto;
+  width: 256px;
+  opacity: 0.99;
+}
+
+.win98 .popup {
+    margin-top: 16em;
+}
+
+#dynamic .popup {
+    margin-top: -8em;
+}
+
+.content {
+  padding: 7px 10px;
+}
+
+.content img {
+    float: left;
+}
+
+.content p {
+    padding: 0 0 1em 4em;
+}
+
+.header {
+  margin: 2px 2px 0;
+  padding: 1px 2px;
+  color: #fff;
+  background: linear-gradient(to right, #000080, #1084d0);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.close {
+  float: right;
+}
+
+.close button {
+  vertical-align: text-top;
+  font-weight: bold;
+  line-height: 12px;
+  padding: 0;
+  height: 14px;
+  width: 14px;
+}
+
+button {
+  font-size: 11px;
+  font-family: "Tahoma", sans-serif;
+  color: #070707;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+  text-align: center;
+  outline: none;
+  padding: 4px;
+  cursor: default;
+}
