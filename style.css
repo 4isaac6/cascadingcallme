@@ -21,7 +21,7 @@
 }
 
 .win98 .popup {
-    margin-top: 16em;
+    margin-top: 24em;
 }
 
 #dynamic .popup {
@@ -78,4 +78,16 @@ button {
   outline: none;
   padding: 4px;
   cursor: default;
+}
+
+button:enabled {
+    color: #070707
+}
+
+button:disabled {
+    color: #818181
+}
+
+button:active:enabled {
+    box-shadow: 1px 1px 0 0 #000 inset;
 }
