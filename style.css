@@ -91,3 +91,8 @@ button:disabled {
 button:active:enabled {
     box-shadow: 1px 1px 0 0 #000 inset;
 }
+
+div[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}

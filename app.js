@@ -38,7 +38,7 @@ async function display() {
 function run() {
     const urlParams = new URLSearchParams(window.location.search);
 
-    numPopups = parseInt(urlParams.get("n"), 10) || 0;
+    numPopups = parseInt(urlParams.get("n"), 10) || 1;
     baseSleep = parseInt(urlParams.get("T"), 10) || 0;
 
     if (numPopups > 0) display();
